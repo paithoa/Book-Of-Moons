@@ -6,8 +6,13 @@ import Button from '@material-ui/core/Button';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import ListItem from '@material-ui/core/ListItem';
-import { SocialIcon } from 'react-social-icons';
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faYoutube,
+  faFacebook,
+  faTwitter,
+  faInstagram
+} from "@fortawesome/free-brands-svg-icons";
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
@@ -70,7 +75,7 @@ class SwipeableTemporaryDrawer extends React.Component {
             
             <ListItem button key={text}>
               <ListItemLink href = {'https://www.instagram.com/book.of.moons/'}>
-              <SocialIcon url="https://www.instagram.com/book.of.moons/" />
+              <FontAwesomeIcon icon={faInstagram} size="2x" />
                             <ListItemText primary={text} style ={{marginLeft:20}}/>
               </ListItemLink>
             </ListItem>
