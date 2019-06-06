@@ -1,0 +1,51 @@
+
+  .hover02 {
+    width: 600px;
+    height: auto;
+    vertical-align: center;
+    text-align: middle;
+    margin:0 auto;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  .hover02:hover  {
+    width: 450px;
+  }
+
+  /*###Tablet(medium)###*/
+@media screen and (min-width : 768px) and (max-width : 1023px){
+  body {cursor: pointer}
+
+  .hover02 {
+    width: 600px;
+    height: auto;
+    vertical-align: center;
+    text-align: middle;
+    margin:0 auto;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  .hover02:hover, .hover02:focus, .hover02:active  {
+    width: 550px;
+  }
+  }
+  
+  /*### Smartphones (portrait and landscape)(small)### */
+  @media screen and (min-width : 0px) and (max-width : 767px){
+    body {cursor: pointer}
+
+    .hover02 {
+      width: 350px;
+      height: auto;
+      vertical-align: center;
+      text-align: middle;
+      margin:0 auto;
+      -webkit-transition: .3s ease-in-out;
+      transition: .3s ease-in-out;
+    }
+    .hover02:hover,.hover02:focus, .hover02:active  {
+      width: 300px;
+    }
+  }
+
+  

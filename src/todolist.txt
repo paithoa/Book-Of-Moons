@@ -1,0 +1,6 @@
+1. Copy the articles state from body
+2. Link articles to article 
+3. Routing
+4. Before Components Load ( Like Show Loading or x)
+
+5.Navbar,hamburger,swipeable cards,load more
