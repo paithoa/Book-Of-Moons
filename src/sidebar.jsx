@@ -47,7 +47,12 @@ class SwipeableTemporaryDrawer extends React.Component {
 
   render() {
     const { classes } = this.props;
-
+    const socialMediaIcons = [
+      {
+        url: 'https://instagram.com/book.of.moons',
+        className: 'fa-instagram',
+      },
+    ]
     const sideList = (
       <div className={classes.list}>
         <List>
@@ -62,10 +67,11 @@ class SwipeableTemporaryDrawer extends React.Component {
         <Divider />
         <List>
           {['Instagram'].map((text, index) => (
+            
             <ListItem button key={text}>
               <ListItemLink href = {'https://www.instagram.com/book.of.moons/'}>
-              <SocialIcon url="http://instagram.com/book.of.moons"/>
-              <ListItemText primary={text} style ={{marginLeft:20}}/>
+              <SocialIcon url="https://www.instagram.com/book.of.moons/" />
+                            <ListItemText primary={text} style ={{marginLeft:20}}/>
               </ListItemLink>
             </ListItem>
           ))}
