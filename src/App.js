@@ -46,13 +46,13 @@ function Home() {
       return <div style={{ position: 'absolute', left: '50%', top: '50%',lineHeight:1.3,
     transform: 'translate(-50%, -50%)'}}>   
         Book of Moons seeks to celebrate and encourage a love for all things books, film and television - basically any type of story-telling which excites and inspires us. As a platform for writers and bookworms, we aim to provide content to help guide you with your next book or movie purchase - regardless of whether you’re a hardcore paperback lover or just a casual theatre-goer.
-        </div>
         <br></br>
-        <div>
-            If you would like to be a writer or contribute in any way please email bookofmoons@yahoo.com
+        If you would like to be a writer or contribute in any way please email bookofmoons@yahoo.com
             with your name, and favorite genre.
 
-            </div>
+        </div>
+        
+       
   }
 
   function Topic({ match }) {
