@@ -49,9 +49,9 @@ function Home() {
         </div>
         <br></br>
         <div>
-            If you would like to be a writer and contribute please email bookofmoons@yahoo.com
+            If you would like to be a writer or contribute in any way please email bookofmoons@yahoo.com
             with your name, and favorite genre.
-            
+
             </div>
   }
 
