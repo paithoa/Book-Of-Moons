@@ -49,7 +49,10 @@ function Home() {
         <br></br>
         If you would like to be a writer or contribute in any way please email bookofmoons@yahoo.com
             with your name, and favorite genre.
-
+        <br></br>
+        Design and Developed by Handy Hasan and Team.
+        <a href="https://www.linkedin.com/in/handy-hasan-a6aa73176/">Linkedin Profile</a>
+        <a href="https://medium.com/handy-hasan-blog">Medium Profile</a>
         </div>
         
        
