@@ -61,7 +61,7 @@ class SwipeableTemporaryDrawer extends React.Component {
     const sideList = (
       <div className={classes.list}>
         <List>
-          {['About','Horror', 'Personal Development','Romance','Mystery','Comedy','Short Stories','Fiction','Non-Fiction','Biography','General','Anime/Japan','History'].map((text, index) => (
+          {['Horror', 'Personal Development','Romance','Mystery','Comedy','Short Stories','Fiction','Non-Fiction','Biography','General','Anime/Japan','History','Fantasy','Classic'].map((text, index) => (
             <ListItem button key={text}>
               <ListItemLink href = {`/categories/${text}`}>
               <ListItemText primary={text}   />
@@ -77,6 +77,15 @@ class SwipeableTemporaryDrawer extends React.Component {
               <ListItemLink href = {'https://www.instagram.com/book.of.moons/'}>
               <FontAwesomeIcon icon={faInstagram} size="2x" />
                             <ListItemText primary={text} style ={{marginLeft:20}}/>
+              </ListItemLink>
+            </ListItem>
+          ))}
+        </List>
+        <List>
+        {['About'].map((text, index) => (
+            <ListItem button key={text}>
+              <ListItemLink href = {`/${text}`}>
+              <ListItemText primary={text}   />
               </ListItemLink>
             </ListItem>
           ))}
