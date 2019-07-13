@@ -43,8 +43,8 @@ function Home() {
   }
 
   function About(){
-      return <div style={{  
-        position: 'absolute', left: '50%', top: '50%',lineHeight:1.3,
+      return <div class="a" style={{  
+        position: 'absolute', left: '50%', top: '57.5%',lineHeight:1.3,
     transform: 'translate(-50%, -50%)'}}>   
         Book of Moons seeks to celebrate and encourage a love for all things books, 
         film and television - basically any type of story-telling which excites and inspires us. 
