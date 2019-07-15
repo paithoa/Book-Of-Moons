@@ -15,7 +15,7 @@ class App extends Component {
         return ( <React.Fragment>
             <Router>
             <Helmet>
-            <title>Book Of Moons</title>
+            <title>Book Of Moons - Compilations, Analysis, Summaries, Knowledge, Opinions and Reviews</title>
         <meta name="description" content="Book of Moons seeks to celebrate and encourage a love for all things books, film and television - basically any type of story-telling which excites and inspires us." />
         <meta name="keywords" content="book,review,content,library,reviews,books" />
         <meta name ="robots" content ="index"></meta>
