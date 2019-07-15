@@ -18,6 +18,11 @@ class App extends Component {
             <title>Book Of Moons</title>
         <meta name="description" content="Book of Moons seeks to celebrate and encourage a love for all things books, film and television - basically any type of story-telling which excites and inspires us." />
         <meta name="keywords" content="book,review,content,library,reviews,books" />
+        <meta name ="robots" content ="index"></meta>
+        <meta property="og:description" content="Book of Moons seeks to celebrate and encourage a love for all things books, film and television - basically any type of story-telling which excites and inspires us."></meta>
+        <meta property="og:url" content="https://bookofmoons.com"></meta>
+        <meta property="og:type" content="article"></meta>
+        <meta property="og:site_name" content="Book Of Moons | Australia"></meta>
         <link rel="apple-touch-icon" href="http://mysite.com/img/apple-touch-icon-57x57.png" />
 
                 </Helmet>
