@@ -99,7 +99,7 @@ class Articles extends Component {
 
 { this.state.articles.map(article =>
                 <div class="hover02" style={{textAlign:'center', verticalAlign: 'middle'}}>
-                    <Link to = {`/articles/${article.slug.current}`} style={{ textDecoration: 'none' }}>
+                    <Link to = {`/posts/articles/${article.slug.current}`} style={{ textDecoration: 'none' }}>
                     <Card  article={article} style={{ backgroundColor: 'white', marginTop: 16, marginLeft:30, marginRight:30 }}></Card>
                     </Link> 
        
