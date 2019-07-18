@@ -1,3 +1,10 @@
+## Project Highlight
+
+- Book of Moons seeks to celebrate and encourage a love for all things books, film and television - basically any type of story-telling which excites and inspires us.
+- Number 1 in Google Search Book Of Moons Compilation
+- Write code using ReactJS and use SANITY as a headless CMS and Python in the backend
+- Daily Instagram Content about Books https://www.instagram.com/book.of.moons/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
