@@ -23,14 +23,15 @@ class App extends Component {
         <meta property="og:url" content="https://bookofmoons.com"></meta>
         <meta property="og:type" content="article"></meta>
         <meta property="og:site_name" content="Book Of Moons | Australia"></meta>
+        <meta property="og:image" content="thumbnail_image" />
         <link rel="apple-touch-icon" href="http://mysite.com/img/apple-touch-icon-57x57.png" />
-
+        
                 </Helmet>
             <SideBar/>
             <Route exact path="/" component={Body} />
             <Route path="/about" component={About} />
             <Route path="/posts/articles/:slug" component={Article} />
-        
+            
             <Route path ="/categories/:category" component = {Categories}/>
 
 

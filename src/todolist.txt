@@ -4,3 +4,4 @@
 4. Before Components Load ( Like Show Loading or x)
 
 5.Navbar,hamburger,swipeable cards,load more
+6.Read Time
