@@ -29,7 +29,7 @@ class App extends Component {
             <SideBar/>
             <Route exact path="/" component={Body} />
             <Route path="/about" component={About} />
-            <Route path="/post/articles/:slug" component={Article} />
+            <Route path="/posts/articles/:slug" component={Article} />
         
             <Route path ="/categories/:category" component = {Categories}/>
 
